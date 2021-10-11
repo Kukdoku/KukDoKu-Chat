@@ -1,0 +1,33 @@
+.chat__header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid black;
+  background-color: antiquewhite;
+}
+
+.chat__header__info {
+  margin-left: 20px;
+}
+.chat {
+  background-image: url("../Images/background.jfif");
+  background-size: cover;
+  height: 100%;
+}
+
+.chat__messages {
+  color: red;
+  display: flex;
+  flex-direction: column-reverse;
+   overflow-x: hidden;
+  overflow-y: scroll;
+  height:69vh;
+  
+ 
+
+}
+
+.chat__message__form {
+  position: absolute;
+  bottom: 0px;
+}

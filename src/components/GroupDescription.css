@@ -1,0 +1,10 @@
+.groupDes {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.groupDes__indi {
+  padding-left: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,64 @@
+* {
+  /* background-color: #f2f2f2; */
+}
+.login {
+}
+
+.login__logo {
+  height: 15vw;
+  min-height: 4vw;
+}
+
+.login__appName {
+  font-size: 40px;
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  /* animation-delay: 2s; */
+}
+
+@keyframes example {
+  0% {
+    color: violet;
+  }
+  15% {
+    color: indigo;
+  }
+  30% {
+    color: blue;
+  }
+  45% {
+    color: green;
+  }
+  60% {
+    color: yellow;
+  }
+  75% {
+    color: orange;
+  }
+  90% {
+    color: red;
+  }
+  100% {
+    color: green;
+  }
+}
+
+.login__align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.login__button {
+  margin-top: 20vh;
+}
+
+.login__button {
+  width: 50vw;
+}
+.login__appName {
+  font-size: 4vw;
+  
+}

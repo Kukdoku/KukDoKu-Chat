@@ -1,0 +1,17 @@
+.chatMessageForm {
+  display: flex;
+  align-items: center;
+  background-color: rgb(223, 217, 217);
+  /* position: sticky;
+  bottom: 0px; */
+  width: 69.8vw;
+  border: 1px solid gray;
+}
+
+.file {
+  display: none;
+}
+
+.chatMessageForm__file{
+  flex:1;
+}

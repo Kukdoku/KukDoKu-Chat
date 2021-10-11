@@ -1,0 +1,101 @@
+/* .chatShowOk > .MuiAvatar-root {
+  position: relative;
+  top: 10px;
+  border: 1px solid greenyellow;
+  width: 20px;
+  height: 20px;
+} */
+
+/* .chatShow__message {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  max-width: 70%;
+  width: 50px;
+  width: fit-content;
+
+  border-radius: 7px;
+  background-color: azure;
+  margin-left: 10px;
+} */
+
+/* .chatShow {
+  border: 1px solid gray;
+  margin-left: 10px;
+  margin: 10px;
+} */
+
+.chat {
+  /* padding: 10px; */
+  /* margin: 10px; */
+  /* width: fit-content; */
+  /* color: red; */
+  margin-left: "20px";
+}
+
+.chat__user {
+  margin-left: auto;
+  /* color: white; */
+  text-align: left !important;
+  margin-right: 15px;
+}
+
+.message__userCard {
+  max-width:60%;
+  object-fit: contain;
+  display: inline;
+}
+
+.chat__questCard {
+  max-width: 60%;
+  /* object-fit: contain; */
+  width: fit-content;
+  margin-left: 30px;
+  min-width: 10%;
+}
+
+.chat__userCard {
+  margin-right: 30px;
+  /* max-width: 40%; */
+  /* object-fit: contain; */
+  width: fit-content;
+  /* min-width: 30%; */
+}
+
+.chat__user > .chat__userCard > .MuiCardContent-root {
+  background-color: rgb(241, 219, 219);
+}
+
+.chat__userCard > .MuiCardContent-root {
+  padding: 5px;
+}
+
+.chat__userCard > .MuiCardContent-root:last-child {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.chat__questCard > .MuiCardContent-root {
+  padding: 5px;
+}
+
+.chat__questCard > .MuiCardContent-root:last-child {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.false > .chat__questCard > .MuiCardContent-root {
+  background-color: rgb(172, 238, 238);
+}
+
+.chat__messagess > .MuiAvatar-root {
+  width: 20px;
+  height: 20px;
+}
+
+.chat__userCard > .MuiCardContent > .MuiTypography-body1 {
+  font-size: 0.8rem;
+}
+
+.MuiTypography-body1 {
+  font-size: 0.8rem;
+}

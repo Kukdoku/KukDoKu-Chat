@@ -1,0 +1,39 @@
+
+
+.leftHeader__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid black;
+  background-color: rgb(240, 233, 233);
+}
+
+
+/* .chatFriends__individualPerson{
+    display: grid;
+    grid-template-columns: 10% 75% 15%;
+    align-items: center;
+border-bottom: 1px solid gray;
+  padding: 5px;
+} */
+
+/* .chatFriends__individualPerson__info{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+} */
+/* .chatFiends__individualPerson__details{
+  display: flex;
+    flex-direction: column;
+}
+
+.chatFriends__header__left{
+  display:flex;
+  align-items: center;
+} */
+
+.chatFriends__header__right{
+  display:flex;
+}

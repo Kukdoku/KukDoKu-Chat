@@ -1,0 +1,51 @@
+.header__logo {
+  width: 10vh;
+}
+
+.header{
+    display:flex;
+
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid gray;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__right{
+    display:flex;
+    /* align-items: center; */
+}
+.header__user{
+    flex:1;
+    display: flex;
+    margin: 0 5px 0 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.header__user > .MuiAvatar-root{
+  width: 30px;
+  height: 30px;
+}
+
+.header__user > p{
+    font-size: 10px;
+}
+
+.header__exit{
+    /* margin-top: 5px; */
+    cursor: pointer;
+}
+
+
+.header__title{
+    text-decoration: none;
+}
+
+.header__profileImage{
+    border:1px solid black;
+    /* cursor: pointer; */
+}

@@ -1,0 +1,17 @@
+.profile__top > .MuiAvatar-root {
+  width:150px;
+  height:150px;
+}
+
+.profile__top {
+  display: flex;
+  margin: 15px;
+}
+
+.profile {
+  margin: 15px;
+}
+
+.profile__pic {
+  border: 2px solid green;
+}

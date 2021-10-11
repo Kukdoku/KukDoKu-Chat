@@ -1,0 +1,35 @@
+.search__input {
+  color: green;
+  border: 2px solid Black;
+}
+input.style {
+  width: 414px;
+  height: 30px;
+  border-radius: 99px;
+}
+.search__here {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+
+.search__item {
+  margin-top: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search__itemUser {
+  display:flex;
+  
+  
+}
+
+.search__itemAvatar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

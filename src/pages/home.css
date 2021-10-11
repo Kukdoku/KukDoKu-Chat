@@ -1,0 +1,9 @@
+.home__content {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.home__left {
+  display: flex;
+  flex-direction: column;
+}
